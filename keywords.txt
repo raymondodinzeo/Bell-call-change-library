@@ -1,0 +1,7 @@
+initOrder KEYWORD1
+initOrder		KEYWORD2
+printArray 		KEYWORD2
+initBells 		KEYWORD2
+swapBells 		KEYWORD2
+instructions 	KEYWORD2
+array_cmp		KEYWORD2
