@@ -36,20 +36,20 @@ class initOrder
     int _prBells;
     int _prNumBells;
     //initBells
-    int _inFirstArray[];
-    int _inSecondArray2[];
+    int _inFirstArray[16];
+    int _inSecondArray2[16];
     int _inNumBells;
     //swapBells
-    int _swFirstArr[];
-    int _swSecondArr[];
+    int _swFirstArr[16];
+    int _swSecondArr[16];
     int _swIndex;
     //instructions
-    int _insFirstArr[];
+    int _insFirstArr[16];
     int _insIndex; 
     int _insNumBells;
     //array_cmp
-    int _acFirstArr[]; 
-    int _acSecondArr[];
+    int _acFirstArr[16]; 
+    int _acSecondArr[16];
     int _acNumBells;
     };
 	
