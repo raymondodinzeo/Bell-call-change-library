@@ -94,13 +94,13 @@ void initOrder::instructions(int _insFirstArr[], int _insIndex, int _insNumBells
   }
   else
   { 
-  Serial.print(_insFirstArr[_insIndex]);
-  Serial.print(" to "); 
-  Serial.print(_insFirstArr[_insIndex-1]);
-  Serial.print(",  "); 
   Serial.print(_insFirstArr[_insIndex+1]);
-  Serial.print(" to ");
+  Serial.print(" to "); 
   Serial.print(_insFirstArr[_insIndex]);
+  Serial.print(",  "); 
+  Serial.print(_insFirstArr[_insIndex]);
+  Serial.print(" to ");
+  Serial.print(_insFirstArr[_insIndex-1]);
   Serial.print(",  ");
   if(_insIndex == _insNumBells-1) //Routine to catch if the last two bells are changed
   {
